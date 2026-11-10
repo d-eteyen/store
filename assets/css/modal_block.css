@@ -1,0 +1,53 @@
+.modal{
+    overflow: auto; /* Enable scroll if needed */
+    padding-top: 90px;
+}
+/*modal text block*/
+    
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    position: absolute;
+    top: 90px;
+    right: 70px;
+    background-color: #ffffff;
+    color: #080808;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block1 {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    background-color: #ffffff;
+    color: #080808;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    
+}    
+/* The Close Button */
+.close {
+    color: rgb(247, 9, 9);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+            
